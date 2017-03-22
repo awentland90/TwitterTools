@@ -2,7 +2,7 @@
 """ Tweet Readability Processor
 
 Summary:
-    Utility to parse and save a users most recent tweets and calculate readaibility
+    Utility to parse and save a users most recent tweets and calculate readability & word count
 
 
 User options:
@@ -215,17 +215,17 @@ def readability(tweet_file, top_n_words, username):
     y_highlim = max(word_count)
     plt.ylim([0, math.ceil(y_highlim + 0.25 * (y_highlim - y_lowlim))])
 
-    plt.text(0.7, 0.8, 'Smog Index: %s' % textstat.smog_index(data),
+    plt.text(0.7, 0.85, 'Smog Index: %s' % textstat.smog_index(data),
              horizontalalignment='left',
              verticalalignment='center',
              transform=ax.transAxes, fontsize=9, color="grey")
 
-    plt.text(0.7, 0.75, 'Flesch Reading Ease: %s' % textstat.flesch_reading_ease(data),
+    plt.text(0.7, 0.8, 'Flesch Reading Ease: %s' % textstat.flesch_reading_ease(data),
              horizontalalignment='left',
              verticalalignment='center',
              transform=ax.transAxes, fontsize=9, color="grey")
 
-    plt.text(0.7, 0.85, 'Flesch Kincaid Grade: %s' % textstat.flesch_kincaid_grade(data),
+    plt.text(0.7, 0.75, 'Flesch Kincaid Grade: %s' % textstat.flesch_kincaid_grade(data),
              horizontalalignment='left',
              verticalalignment='center',
              transform=ax.transAxes, fontsize=9, color="grey")
