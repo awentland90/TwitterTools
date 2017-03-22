@@ -42,12 +42,12 @@ char_ignore = set('@:#^&;/~`\|1234567890')
 *Example Output*
 <br>
 <br>
-![Markdown preferences pane](./plots/top_20_words_DalaiLama.png)
+![LamaTweets](https://github.com/awentland90/TwitterTools/blob/master/plots/top_20_words_DalaiLama.png)
 <br>
 <br>
 <br>
-![Markdown preferences pane](./plots/top_20_words_BarackObama.png)
+![ObamaTweets](https://github.com/awentland90/TwitterTools/blob/master/plots/top_20_words_BarackObama.png)
 <br>
 <br>
 <br>
-![Markdown preferences pane](./plots/top_20_words_realDonaldTrump.png)
+![TrumpTweets](https://github.com/awentland90/TwitterTools/blob/master/plots/top_20_words_realDonaldTrump.png)
