@@ -46,8 +46,11 @@ char_ignore = set('@:#^&;/~`\|1234567890')
 <br>
 <br>
 <br>
+
 ![ObamaTweets](https://github.com/awentland90/TwitterTools/blob/master/plots/top_20_words_BarackObama.png)
+
 <br>
 <br>
 <br>
+
 ![TrumpTweets](https://github.com/awentland90/TwitterTools/blob/master/plots/top_20_words_realDonaldTrump.png)
