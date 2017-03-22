@@ -42,7 +42,9 @@ char_ignore = set('@:#^&;/~`\|1234567890')
 *Example Output*
 <br>
 <br>
+
 ![LamaTweets](https://github.com/awentland90/TwitterTools/blob/master/plots/top_20_words_DalaiLama.png)
+
 <br>
 <br>
 <br>
