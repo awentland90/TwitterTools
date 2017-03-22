@@ -15,6 +15,7 @@ A collection of scripts and utilities that rely on the Twitter's API to conduct 
 $ python user_readability_stats.py
 ~~~
 <br>
+
 *User options (set in script)*
 
 ~~~
@@ -39,7 +40,9 @@ char_ignore = set('@:#^&;/~`\|1234567890')
 ~~~
 
 <br>
+
 *Example Output*
+
 <br>
 <br>
 
