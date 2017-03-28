@@ -6,7 +6,7 @@ A collection of scripts and utilities that rely on the Twitter's API to conduct 
 
 ### User Readability Stats
 
-* Python based script that relies on the TwitterSearch and textstat libraries to download, parse, and conduct a battery of readability statistics for a specified users most recent tweets. The script can also count and plot the top n most common words a user tweets with optional filtering to ignore the top 100 most common English words and tweets with certain characters.
+* Python based script that relies on the TwitterSearch and textstat libraries to download, parse, and conduct a battery of readability statistics for a specified users most recent tweets. The script can also count and plot the top n most common words a user tweets with optional filtering to ignore the most common English stop words along with tweets with non standard characters.
 
 
 *Usage*
